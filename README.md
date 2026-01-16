@@ -25,30 +25,6 @@ The system democratizes access to complex Indian law by combining authoritative 
 
 ---
 
-## 🏗️ System Architecture
-
-```
-
-User Query
-↓
-Query Analyzer (LLM)
-↓
-Query Router
-┌───────────────┬───────────────┐
-│ Legal Docs DB │ Case Law DB   │
-│ (Vectors)     │ (Vectors)     │
-└───────────────┴───────────────┘
-↓
-Context Retrieval
-↓
-LLM Answer Generation
-↓
-Final Response
-
-```
-
----
-
 ## 🚀 FastAPI Endpoints
 
 ### Base URL
